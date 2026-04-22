@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/robot/ws_arm/install/arm_odom/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/robot/class_samples/ws_arm/install/arm_odom/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/robot/ws_arm/install/arm_odom/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/robot/class_samples/ws_arm/install/arm_odom/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/robot/ws_arm/install/arm_odom/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/robot/class_samples/ws_arm/install/arm_odom/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/robot/ws_arm/install/arm_odom/${destination}")
+      set(destination "/home/robot/class_samples/ws_arm/install/arm_odom/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "arm_odom" "DESTINATION" "lib/arm_odom")
-include("/home/robot/ws_arm/build/arm_odom/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arm_odom" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arm_odom" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arm_odom" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arm_odom" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/arm_odom" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/arm_odom" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/arm_odom" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/arm_odom" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/arm_odom/environment")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/arm_odom/environment")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/arm_odom/environment")
 
-# install(FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/arm_odom/environment")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/arm_odom/environment")
+# install(FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/arm_odom/environment")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/arm_odom/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/arm_odom/environment")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/arm_odom/environment")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/arm_odom/environment")
 
-# install(FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/arm_odom/environment")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/arm_odom/environment")
+# install(FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/arm_odom/environment")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/arm_odom/environment")
 
-# install(FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/arm_odom")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/arm_odom")
+# install(FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/arm_odom")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/arm_odom")
 
-# install(FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/arm_odom")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/arm_odom")
+# install(FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/arm_odom")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/arm_odom")
 
-# install(FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/arm_odom")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/arm_odom")
+# install(FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/arm_odom")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/arm_odom")
 
-# install(FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/arm_odom")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/arm_odom")
+# install(FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/arm_odom")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/arm_odom")
 
-# install(FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/arm_odom")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/arm_odom")
+# install(FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/arm_odom")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/arm_odom")
 
-# install(FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_index/share/ament_index/resource_index/packages/arm_odom" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_index/share/ament_index/resource_index/packages/arm_odom" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_index/share/ament_index/resource_index/packages/arm_odom" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_index/share/ament_index/resource_index/packages/arm_odom" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_core/arm_odomConfig.cmake" "/home/robot/ws_arm/build/arm_odom/ament_cmake_core/arm_odomConfig-version.cmake" "DESTINATION" "share/arm_odom/cmake")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/home/robot/ws_arm/build/arm_odom/ament_cmake_core/arm_odomConfig.cmake" "/home/robot/ws_arm/build/arm_odom/ament_cmake_core/arm_odomConfig-version.cmake" "DESTINATION" "share/arm_odom/cmake")
+# install(FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_core/arm_odomConfig.cmake" "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_core/arm_odomConfig-version.cmake" "DESTINATION" "share/arm_odom/cmake")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_core/arm_odomConfig.cmake" "/home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_core/arm_odomConfig-version.cmake" "DESTINATION" "share/arm_odom/cmake")
 
-# install(FILES "/home/robot/ws_arm/src/arm_odom/package.xml" "DESTINATION" "share/arm_odom")
-ament_cmake_symlink_install_files("/home/robot/ws_arm/src/arm_odom" FILES "/home/robot/ws_arm/src/arm_odom/package.xml" "DESTINATION" "share/arm_odom")
+# install(FILES "/home/robot/class_samples/ws_arm/src/arm_odom/package.xml" "DESTINATION" "share/arm_odom")
+ament_cmake_symlink_install_files("/home/robot/class_samples/ws_arm/src/arm_odom" FILES "/home/robot/class_samples/ws_arm/src/arm_odom/package.xml" "DESTINATION" "share/arm_odom")

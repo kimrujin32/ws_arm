@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/ws_arm/src/arm_odom
+CMAKE_SOURCE_DIR = /home/robot/class_samples/ws_arm/src/arm_odom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/ws_arm/build/arm_odom
+CMAKE_BINARY_DIR = /home/robot/class_samples/ws_arm/build/arm_odom
 
 # Utility rule file for arm_odom_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/arm_odom_uninstall.dir/compiler_depend.make
 include CMakeFiles/arm_odom_uninstall.dir/progress.make
 
 CMakeFiles/arm_odom_uninstall:
-	/usr/bin/cmake -P /home/robot/ws_arm/build/arm_odom/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/robot/class_samples/ws_arm/build/arm_odom/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 arm_odom_uninstall: CMakeFiles/arm_odom_uninstall
 arm_odom_uninstall: CMakeFiles/arm_odom_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/arm_odom_uninstall.dir/clean:
 .PHONY : CMakeFiles/arm_odom_uninstall.dir/clean
 
 CMakeFiles/arm_odom_uninstall.dir/depend:
-	cd /home/robot/ws_arm/build/arm_odom && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/ws_arm/src/arm_odom /home/robot/ws_arm/src/arm_odom /home/robot/ws_arm/build/arm_odom /home/robot/ws_arm/build/arm_odom /home/robot/ws_arm/build/arm_odom/CMakeFiles/arm_odom_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robot/class_samples/ws_arm/build/arm_odom && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/class_samples/ws_arm/src/arm_odom /home/robot/class_samples/ws_arm/src/arm_odom /home/robot/class_samples/ws_arm/build/arm_odom /home/robot/class_samples/ws_arm/build/arm_odom /home/robot/class_samples/ws_arm/build/arm_odom/CMakeFiles/arm_odom_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/arm_odom_uninstall.dir/depend
 

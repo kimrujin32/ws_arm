@@ -1,0 +1,71 @@
+[0.016s] Invoking command in '/home/robot/class_samples/ws_arm/build/arm_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/class_sample/ws_sim/install/sim_tutorial:/home/robot/class_sample/ws_arm/install/arm_tutorial:/home/robot/class_sample/ws_urdf/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/turtlebot3_ws/install/turtlebot3_fsd:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/robot/turtlebot3_ws/install/pyqt_robot:/home/robot/rokeypj_ws/install/sample_pkg:/home/robot/rokeypj_ws/install/fsd_pkg:/home/robot/rokeypj_ws/install/aruco_yolo:/home/robot/rokeyracing_ws/install/pyqt_robot:/home/robot/RH-P12-RN-A/install/rh_p12_rn_a_bringup:/home/robot/RH-P12-RN-A/install/example:/home/robot/ros2_ws/install/dsr_visualservoing:/home/robot/ros2_ws/install/dsr_tests:/home/robot/ros2_ws/install/dsr_bringup2:/home/robot/ros2_ws/install/dsr_example:/opt/ros/humble /usr/bin/cmake /home/robot/class_samples/ws_arm/src/arm_odom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/class_samples/ws_arm/install/arm_odom
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.106s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.163s] -- Detecting CXX compiler ABI info
+[0.220s] -- Detecting CXX compiler ABI info - done
+[0.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.224s] -- Detecting CXX compile features
+[0.224s] -- Detecting CXX compile features - done
+[0.228s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.394s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.454s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.519s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[0.581s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.590s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.601s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.617s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.677s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.762s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.769s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.861s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.887s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.922s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.936s] -- Looking for pthread.h
+[0.984s] -- Looking for pthread.h - found
+[0.984s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.031s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.032s] -- Found Threads: TRUE  
+[1.128s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.142s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.232s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.232s] -- Configured cppcheck include dirs: 
+[1.232s] -- Configured cppcheck exclude dirs and/or files: 
+[1.233s] -- Added test 'lint_cmake' to check CMake code style
+[1.234s] -- Added test 'uncrustify' to check C / C++ code style
+[1.234s] -- Configured uncrustify additional arguments: 
+[1.234s] -- Added test 'xmllint' to check XML markup files
+[1.236s] -- Configuring done
+[1.243s] -- Generating done
+[1.245s] -- Build files have been written to: /home/robot/class_samples/ws_arm/build/arm_odom
+[1.252s] Invoked command in '/home/robot/class_samples/ws_arm/build/arm_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/class_sample/ws_sim/install/sim_tutorial:/home/robot/class_sample/ws_arm/install/arm_tutorial:/home/robot/class_sample/ws_urdf/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/turtlebot3_ws/install/turtlebot3_fsd:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/robot/turtlebot3_ws/install/pyqt_robot:/home/robot/rokeypj_ws/install/sample_pkg:/home/robot/rokeypj_ws/install/fsd_pkg:/home/robot/rokeypj_ws/install/aruco_yolo:/home/robot/rokeyracing_ws/install/pyqt_robot:/home/robot/RH-P12-RN-A/install/rh_p12_rn_a_bringup:/home/robot/RH-P12-RN-A/install/example:/home/robot/ros2_ws/install/dsr_visualservoing:/home/robot/ros2_ws/install/dsr_tests:/home/robot/ros2_ws/install/dsr_bringup2:/home/robot/ros2_ws/install/dsr_example:/opt/ros/humble /usr/bin/cmake /home/robot/class_samples/ws_arm/src/arm_odom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/class_samples/ws_arm/install/arm_odom
+[1.254s] Invoking command in '/home/robot/class_samples/ws_arm/build/arm_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/class_sample/ws_sim/install/sim_tutorial:/home/robot/class_sample/ws_arm/install/arm_tutorial:/home/robot/class_sample/ws_urdf/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/turtlebot3_ws/install/turtlebot3_fsd:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/robot/turtlebot3_ws/install/pyqt_robot:/home/robot/rokeypj_ws/install/sample_pkg:/home/robot/rokeypj_ws/install/fsd_pkg:/home/robot/rokeypj_ws/install/aruco_yolo:/home/robot/rokeyracing_ws/install/pyqt_robot:/home/robot/RH-P12-RN-A/install/rh_p12_rn_a_bringup:/home/robot/RH-P12-RN-A/install/example:/home/robot/ros2_ws/install/dsr_visualservoing:/home/robot/ros2_ws/install/dsr_tests:/home/robot/ros2_ws/install/dsr_bringup2:/home/robot/ros2_ws/install/dsr_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/class_samples/ws_arm/build/arm_odom -- -j16 -l16
+[1.293s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_odom.dir/src/arm_odom.cpp.o[0m
+[5.974s] [100%] [32m[1mLinking CXX executable arm_odom[0m
+[6.218s] [100%] Built target arm_odom
+[6.224s] Invoked command in '/home/robot/class_samples/ws_arm/build/arm_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/class_sample/ws_sim/install/sim_tutorial:/home/robot/class_sample/ws_arm/install/arm_tutorial:/home/robot/class_sample/ws_urdf/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/turtlebot3_ws/install/turtlebot3_fsd:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/robot/turtlebot3_ws/install/pyqt_robot:/home/robot/rokeypj_ws/install/sample_pkg:/home/robot/rokeypj_ws/install/fsd_pkg:/home/robot/rokeypj_ws/install/aruco_yolo:/home/robot/rokeyracing_ws/install/pyqt_robot:/home/robot/RH-P12-RN-A/install/rh_p12_rn_a_bringup:/home/robot/RH-P12-RN-A/install/example:/home/robot/ros2_ws/install/dsr_visualservoing:/home/robot/ros2_ws/install/dsr_tests:/home/robot/ros2_ws/install/dsr_bringup2:/home/robot/ros2_ws/install/dsr_example:/opt/ros/humble /usr/bin/cmake --build /home/robot/class_samples/ws_arm/build/arm_odom -- -j16 -l16
+[6.230s] Invoking command in '/home/robot/class_samples/ws_arm/build/arm_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/class_sample/ws_sim/install/sim_tutorial:/home/robot/class_sample/ws_arm/install/arm_tutorial:/home/robot/class_sample/ws_urdf/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/turtlebot3_ws/install/turtlebot3_fsd:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/robot/turtlebot3_ws/install/pyqt_robot:/home/robot/rokeypj_ws/install/sample_pkg:/home/robot/rokeypj_ws/install/fsd_pkg:/home/robot/rokeypj_ws/install/aruco_yolo:/home/robot/rokeyracing_ws/install/pyqt_robot:/home/robot/RH-P12-RN-A/install/rh_p12_rn_a_bringup:/home/robot/RH-P12-RN-A/install/example:/home/robot/ros2_ws/install/dsr_visualservoing:/home/robot/ros2_ws/install/dsr_tests:/home/robot/ros2_ws/install/dsr_bringup2:/home/robot/ros2_ws/install/dsr_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/class_samples/ws_arm/build/arm_odom
+[6.234s] -- Install configuration: ""
+[6.234s] -- Execute custom install script
+[6.234s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/lib/arm_odom/arm_odom
+[6.240s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/ament_index/resource_index/package_run_dependencies/arm_odom
+[6.245s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/ament_index/resource_index/parent_prefix_path/arm_odom
+[6.252s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/arm_odom/environment/ament_prefix_path.sh
+[6.258s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/arm_odom/environment/ament_prefix_path.dsv
+[6.263s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/arm_odom/environment/path.sh
+[6.269s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/arm_odom/environment/path.dsv
+[6.276s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/arm_odom/local_setup.bash
+[6.283s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/arm_odom/local_setup.sh
+[6.288s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/arm_odom/local_setup.zsh
+[6.293s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/arm_odom/local_setup.dsv
+[6.300s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/arm_odom/package.dsv
+[6.304s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/ament_index/resource_index/packages/arm_odom
+[6.310s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/arm_odom/cmake/arm_odomConfig.cmake
+[6.317s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/arm_odom/cmake/arm_odomConfig-version.cmake
+[6.324s] -- Symlinking: /home/robot/class_samples/ws_arm/install/arm_odom/share/arm_odom/package.xml
+[6.332s] Invoked command in '/home/robot/class_samples/ws_arm/build/arm_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/class_sample/ws_sim/install/sim_tutorial:/home/robot/class_sample/ws_arm/install/arm_tutorial:/home/robot/class_sample/ws_urdf/install/urdf_tutorial:/home/robot/turtlebot3_ws/install/turtlebot3_teleop:/home/robot/turtlebot3_ws/install/turtlebot3_example:/home/robot/turtlebot3_ws/install/turtlebot3_fsd:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/robot/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/robot/turtlebot3_ws/install/pyqt_robot:/home/robot/rokeypj_ws/install/sample_pkg:/home/robot/rokeypj_ws/install/fsd_pkg:/home/robot/rokeypj_ws/install/aruco_yolo:/home/robot/rokeyracing_ws/install/pyqt_robot:/home/robot/RH-P12-RN-A/install/rh_p12_rn_a_bringup:/home/robot/RH-P12-RN-A/install/example:/home/robot/ros2_ws/install/dsr_visualservoing:/home/robot/ros2_ws/install/dsr_tests:/home/robot/ros2_ws/install/dsr_bringup2:/home/robot/ros2_ws/install/dsr_example:/opt/ros/humble /usr/bin/cmake --install /home/robot/class_samples/ws_arm/build/arm_odom

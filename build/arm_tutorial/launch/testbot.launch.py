@@ -1,1 +1,1 @@
-/home/robot/ws_arm/src/arm_tutorial/launch/testbot.launch.py
+/home/robot/class_samples/ws_arm/src/arm_tutorial/launch/testbot.launch.py

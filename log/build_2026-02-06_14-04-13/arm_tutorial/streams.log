@@ -1,0 +1,41 @@
+[0.521s] Invoking command in '/home/robot/class_samples/ws_arm/build/arm_tutorial': PYTHONPATH=/home/robot/class_samples/ws_arm/build/arm_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/class_samples/ws_arm/install/arm_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/class_samples/ws_arm/build/arm_tutorial/build --no-deps symlink_data
+[0.733s] running develop
+[0.878s] running egg_info
+[0.878s] creating arm_tutorial.egg-info
+[0.878s] writing arm_tutorial.egg-info/PKG-INFO
+[0.878s] writing dependency_links to arm_tutorial.egg-info/dependency_links.txt
+[0.878s] writing entry points to arm_tutorial.egg-info/entry_points.txt
+[0.878s] writing requirements to arm_tutorial.egg-info/requires.txt
+[0.878s] writing top-level names to arm_tutorial.egg-info/top_level.txt
+[0.878s] writing manifest file 'arm_tutorial.egg-info/SOURCES.txt'
+[0.879s] reading manifest file 'arm_tutorial.egg-info/SOURCES.txt'
+[0.880s] writing manifest file 'arm_tutorial.egg-info/SOURCES.txt'
+[0.881s] running build_ext
+[0.881s] Creating /home/robot/class_samples/ws_arm/install/arm_tutorial/lib/python3.10/site-packages/arm-tutorial.egg-link (link to .)
+[0.881s] Installing fake_driver script to /home/robot/class_samples/ws_arm/install/arm_tutorial/lib/arm_tutorial
+[0.881s] 
+[0.882s] Installed /home/robot/class_samples/ws_arm/build/arm_tutorial
+[0.882s] running symlink_data
+[0.882s] creating /home/robot/class_samples/ws_arm/install/arm_tutorial/share/ament_index
+[0.882s] creating /home/robot/class_samples/ws_arm/install/arm_tutorial/share/ament_index/resource_index
+[0.882s] creating /home/robot/class_samples/ws_arm/install/arm_tutorial/share/ament_index/resource_index/packages
+[0.882s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/resource/arm_tutorial -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/ament_index/resource_index/packages
+[0.882s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/package.xml -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial
+[0.882s] creating /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/launch
+[0.882s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/launch/testbot.launch.py -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/launch
+[0.882s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/launch/five_dof_arm.launch.py -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/launch
+[0.882s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/launch/arm.launch.py -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/launch
+[0.882s] creating /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/config
+[0.882s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/config/test.rviz -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/config
+[0.882s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/config/arm.rviz -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/config
+[0.883s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/config/five_arm.rviz -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/config
+[0.883s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/config/odom.rviz -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/config
+[0.883s] creating /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/urdf
+[0.883s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/urdf/gazebo.xacro -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/urdf
+[0.883s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/urdf/arm.first.xacro -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/urdf
+[0.883s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/urdf/arm.second.xacro -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/urdf
+[0.883s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/urdf/testbot.urdf.xacro -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/urdf
+[0.883s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/urdf/arm.xacro -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/urdf
+[0.883s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/urdf/four_dof.urdf.xacro -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/urdf
+[0.883s] symbolically linking /home/robot/class_samples/ws_arm/build/arm_tutorial/urdf/five_dof_arm.urdf.xacro -> /home/robot/class_samples/ws_arm/install/arm_tutorial/share/arm_tutorial/urdf
+[0.901s] Invoked command in '/home/robot/class_samples/ws_arm/build/arm_tutorial' returned '0': PYTHONPATH=/home/robot/class_samples/ws_arm/build/arm_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/class_samples/ws_arm/install/arm_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/class_samples/ws_arm/build/arm_tutorial/build --no-deps symlink_data

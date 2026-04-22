@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/robot/ws_arm/src/arm_odom/src/arm_odom.cpp" "CMakeFiles/arm_odom.dir/src/arm_odom.cpp.o" "gcc" "CMakeFiles/arm_odom.dir/src/arm_odom.cpp.o.d"
+  "/home/robot/class_samples/ws_arm/src/arm_odom/src/arm_odom.cpp" "CMakeFiles/arm_odom.dir/src/arm_odom.cpp.o" "gcc" "CMakeFiles/arm_odom.dir/src/arm_odom.cpp.o.d"
   )
 
 # Targets to which this target links.

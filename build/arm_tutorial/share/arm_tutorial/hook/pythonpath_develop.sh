@@ -1,3 +1,3 @@
 # generated from colcon_core/shell/template/hook_prepend_value.sh.em
 
-_colcon_prepend_unique_value PYTHONPATH "/home/robot/ws_arm/build/arm_tutorial"
+_colcon_prepend_unique_value PYTHONPATH "/home/robot/class_samples/ws_arm/build/arm_tutorial"
